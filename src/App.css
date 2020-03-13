@@ -1,4 +1,18 @@
 * {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+}
+
+:root {
+  --mainBlue: #4fa8c9;
+  --mainBlack: #222;
+  --mainGrey: #f0f0f3;
+  --secondBlack: #808080;
+  --secondGrey: #d1d1d1;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: var(--mainGrey);
+  color: var(--mainBlack);
 }
